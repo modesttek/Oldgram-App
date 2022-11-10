@@ -12,25 +12,37 @@ body {
     box-sizing: border-box;
 }
 
-/* Layouts */
-.main-container {
-    max-width: 400px;
-     margin: 0;
+/* layouts */
+.main-container{
+    margin: 0;
+    padding-top: 60px;
 }
+
+.main-container,
+nav {
+    max-width: 400px;
+    
+}
+
 nav,
 section {
     background: #ffffff;
 }
+
 nav,
 .user {
     display: flex;
 }
 
-nav { 
+nav {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #C6C6C6;
     padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 section {
@@ -47,18 +59,19 @@ section {
     width: 26px;
     display: inline-block;
     padding-right: 10px;
-   
+
 }
 
 /* typography */
 h3,
 p {
- margin:0;
+    margin: 0;
 }
 
 h3,
 .add-weight {
-    font-weight: 700;}
+    font-weight: 700;
+}
 
 h3 {
     font-size: 16px;
@@ -85,11 +98,10 @@ p {
     border-radius: 50%;
     width: 34px;
     height: 34px;
-   
+
 }
 
 .post-images {
     max-width: 100%;
-   
-}
 
+}
