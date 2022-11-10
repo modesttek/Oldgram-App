@@ -1,0 +1,95 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-width: 100%;
+    background: #C6C6C6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Layouts */
+.main-container {
+    max-width: 400px;
+     margin: 0;
+}
+nav,
+section {
+    background: #ffffff;
+}
+nav,
+.user {
+    display: flex;
+}
+
+nav { 
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 5px;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 15px 0;
+}
+
+.user {
+    padding: 6px;
+    justify-items: start;
+}
+
+.clickable-logo {
+    width: 26px;
+    display: inline-block;
+    padding-right: 10px;
+   
+}
+
+/* typography */
+h3,
+p {
+ margin:0;
+}
+
+h3,
+.add-weight {
+    font-weight: 700;}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+
+
+/* Images */
+
+.user-images,
+.post-images,
+.clickable-logo {
+    cursor: pointer;
+}
+
+.user-images {
+
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+   
+}
+
+.post-images {
+    max-width: 100%;
+   
+}
+
